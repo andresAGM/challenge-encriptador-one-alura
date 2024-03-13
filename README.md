@@ -1,9 +1,18 @@
-Challenge de Alura
-**Caracteristicas principales:**
-1.Encripta
-2.Desencriptar
-3.Copiar el texto y lo pega en el input principal
-4.alertas de: texto encriptado, texto desencriptado, texto copiado
+<h3>Challenge de Alura</h3>
+<strong>Caracteristicas principales:</strong>
+<ol>
+	<li>Encripta</li>
+	<li>Desencriptar</li>
+	<li>Copiar el texto y lo pega en el input principal</li>
+	<li>Alertas de:</li>
+		<ul>
+			<li>Texto encriptado correctamente</li>
+			<li>Texto desencriptado correctamente</li>
+			<li>Texto copiado correctamente</li>
+	  </ul>
+</ol>
 
-**Caracteristicas que faltan: **
-1.Responsive Design
+<strong>Caracteristicas que faltan:</strong>
+<ol>
+	<li>Responsive Design</li>
+</ol>
