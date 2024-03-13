@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador - Oracle Next Education - Alura</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- import fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="img">
+                <img src="img/logo.png" alt="Logo da One">
+            </div>
+        </div>
+        <div class="main__main">
+            <div class="content">
+                <textarea id="txt__encriptar" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea> 
+                <div>
+                    <!-- icon warning circle-->
+                    <p id="warning"><i class="fas fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</p>
+                    <div id="content__buttons">
+                        <button id="btn__encriptar">Encriptar</button>
+                        <button id="btn__desencriptar">Desencriptar</button>
+                    </div>
+                </div> 
+            </div>
+            <!--footer-->
+            <div class="footer">
+                <p>
+                    Desarrollado por Andrés Alejandro G. M.
+                    <a href="https://www.linkedin.com/in/andres-alejandro-garcia-morales-91305a252/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/andresAGM" target="_blank"><i class="fab fa-github"></i></a>
+                </p>
+            </div>   
+        </div>
+        <div class="side__bar">
+            <div class="bg__content__defecto__result">
+                <div id="content__defecto">
+                    <img src="img/Muñeco.png" alt="Imagen ningun mensaje fue encontrado">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+                <div id="resultado">
+                    <p id="result__text">Hola</p>                
+                    <button id="btn__copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

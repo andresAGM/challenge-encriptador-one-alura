@@ -1,0 +1,237 @@
+/* Funte principal Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+    display: flex;
+    align-items: center;
+}
+
+/*Estilos del container*/
+.container{
+    display: flex;
+    height: 93vh;
+    width: 100%;
+}
+
+/* Estilos del logo */
+.logo .img img{
+    width: 100px;
+}
+
+/* Estilos del main__main */
+.main__main{
+    width: 60%;
+    height: 80%;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main__main .content
+{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Eliminar los bordes */
+.main__main #txt__encriptar:focus{
+    outline: none;
+}
+
+/* Estilos del text area */
+.main__main #txt__encriptar{
+    width: 97%;
+    height: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    background-color: #F3F5FC;
+}
+/*Estilos del placeholder*/
+.main__main #txt__encriptar::placeholder{
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+/* cambiar el diseño del scroll a color azul y redondo*/
+.main__main #txt__encriptar::-webkit-scrollbar{
+    width: 10px;
+    background-color: #D8DFE8;
+    border-radius: 10px;
+}
+
+/* cambiar el diseño del scroll a color azul y redondo*/
+.main__main #txt__encriptar::-webkit-scrollbar-thumb{
+    background-color: #0A3871;
+    border-radius: 10px;
+}
+
+.main__main #warning{
+    color:#495057;
+    font-family: 'inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+/*Estilos de Botones*/
+#content__buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main__main #btn__encriptar
+{
+    background-color: #0A3871;
+    color: #fff;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 49%;
+    height: 60px;
+}
+
+.main__main #btn__encriptar:hover{
+    background-color: #0d4488;
+    color: #fff;
+}
+
+.main__main #btn__desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 23px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 49%;
+    height: 60px;
+}
+
+.main__main #btn__desencriptar:hover{
+    background-color: #f0f0f0;
+    color: #0A3871;
+}
+
+/* Estilos footer fuente inter  */
+.footer{
+    color: #0A3871;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.footer i{
+    color: #0A3871;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.footer i:hover{
+    color: #125ebb;
+    cursor: pointer;
+}
+
+/*Estilos side bar*/
+.side__bar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.side__bar .bg__content__defecto__result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.side__bar #content__defecto h2{
+    color: #343A40;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.side__bar #content__defecto p{
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.side__bar #content__defecto img{
+    width: 250px;
+}
+
+/*Estilos Resultado*/
+.side__bar #resultado
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    color: #0A3871;
+    opacity: 0;
+    position: absolute;
+}
+
+.side__bar #resultado #result__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    /*para que el texto no se salga el ancho*/
+    overflow-wrap: break-word;
+}
+
+.side__bar #resultado #btn__copiar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 23px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.side__bar #resultado #btn__copiar:hover{
+    background-color: #f0f0f0;
+    color: #0A3871;
+}
